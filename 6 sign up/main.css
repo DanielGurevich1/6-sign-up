@@ -9,8 +9,6 @@ conteiner{
         display: inline-block;
       position:absolute;
       top: 0px;
-      /* left: 0%; 
-       z-index: 1; */
       width: 100%;
     }
     .mc
