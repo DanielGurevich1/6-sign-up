@@ -1,11 +1,4 @@
-body, 
-body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: content-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 body {
  background-color: blue;
 }
@@ -18,13 +11,14 @@ body {
         background-color: aliceblue;
     }
         .left-column {
-        display: inline-block;
-        width: 40%;
-        margin-top: 20px;
-        
-        float: left;
-        background-color: red;
-        color: white;
+            display: inline-block;
+            width: 40%;
+            padding: 40px;
+            padding-bottom: 20px;
+            margin-top: 20px;        
+            float: left;
+            background-color: red;
+            color: white;
 
         }
             .page-title {
@@ -34,73 +28,24 @@ body {
 
             .bottom-links {
                 display: inline-block;
-                width: 100%;
-                
-            
+                width: 100%;         
             }
-              .bottom-links > link {
-
+              .bottom-links > .link {
+                color: white;
                 }
-                .bottom-links > text {
+                .bottom-links > .text {
                     color: white;
                 }
         .right-column {
             display: inline-block;
-            width: calc(60% - 60px);
+            width: 60%;
             margin-top: 0;
-            float: right;
+            float: left;
             background-color: pink;
-            padding: 30px;
+            padding: 60px;
     
             }
             .close {
 
             }
-            .form {
-                display: inline-block;
-                width: 100%;
-                padding: 10px 10px;
-
-            }
-            .form-row {
-                display: inline-block;
-                width: 100%;
-                margin-bottom: 30px;
-            }
-            .form-row: last-of-type {
-                margin-bottom: 0;
-            }
-            .lable {
-                display: inline-block;
-                width: 100%;
-                line-height: 15px;
-                text-transform: uppercase;
-            }
-             .input {
-                display: inline-block;
-                width: 100%;
-            }
-            .btn {
-                display: inline-block;
-                padding: 10px;
-                padding-left: 40px;
-                padding-right: 40px;
-                line-height: 20px;
-                font-size: 18px;
-                border-radius: 20px;
-                color: white;
-                background-color: blue;
-            }
-            .form-row > text {
-                display: inline-block;
-                padding: 10px;
-                line-height: 20px;
-                font-size: 18px;
-
-            }
-            .form-row > link {
-                display: inline-block;
-                padding: 10px;
-                line-height: 20px;
-                font-size: 18px;
-            }
+            
