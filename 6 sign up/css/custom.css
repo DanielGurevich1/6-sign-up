@@ -10,47 +10,97 @@ body {
  background-color: blue;
 }
 
-    .conteiner {
+    .container {
         display: inline-block;
         width: 800px;
         margin-top: 100px;
-        margin-left: ((100%-800px)/2);
+        margin-left: calc((100% - 800px) / 2);
         background-color: aliceblue;
     }
         .left-column {
+        display: inline-block;
+        width: 40%;
+        margin-top: 20px;
+        
+        float: left;
+        background-color: red;
+        color: white;
 
         }
             .page-title {
-
+                display: inline-block;
+                width: 100%;
             }
 
             .bottom-links {
-
+                display: inline-block;
+                width: 100%;
+                
             
             }
-              .link{
+              .bottom-links > link {
 
                 }
-               .text {
-
+                .bottom-links > text {
+                    color: white;
                 }
         .right-column {
-
-        }
-
-
-        .close {
-
-        }
-        .form {
-
-        }
-            form > div {
+            display: inline-block;
+            width: calc(60% - 60px);
+            margin-top: 0;
+            float: right;
+            background-color: pink;
+            padding: 30px;
+    
+            }
+            .close {
 
             }
-            form > div > div {
+            .form {
+                display: inline-block;
+                width: 100%;
+                padding: 10px 10px;
 
             }
-        form > span {
+            .form-row {
+                display: inline-block;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .form-row: last-of-type {
+                margin-bottom: 0;
+            }
+            .lable {
+                display: inline-block;
+                width: 100%;
+                line-height: 15px;
+                text-transform: uppercase;
+            }
+             .input {
+                display: inline-block;
+                width: 100%;
+            }
+            .btn {
+                display: inline-block;
+                padding: 10px;
+                padding-left: 40px;
+                padding-right: 40px;
+                line-height: 20px;
+                font-size: 18px;
+                border-radius: 20px;
+                color: white;
+                background-color: blue;
+            }
+            .form-row > text {
+                display: inline-block;
+                padding: 10px;
+                line-height: 20px;
+                font-size: 18px;
 
-        }
+            }
+            .form-row > link {
+                display: inline-block;
+                padding: 10px;
+                line-height: 20px;
+                font-size: 18px;
+            }
