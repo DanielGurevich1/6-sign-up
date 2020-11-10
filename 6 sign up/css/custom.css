@@ -1,6 +1,7 @@
 
 body {
  background-color: blue;
+ background-image: url("mblur.png");
 }
 
     .container {
@@ -9,7 +10,7 @@ body {
         margin-top: 100px;
         margin-left: calc((100% - 800px) / 2);
         position: relative;
-        background-color: blue;
+        /* background-color: blue; */
     }
         .left-column {
             display: inline-block;
@@ -19,7 +20,7 @@ body {
             margin-top: 20px;        
             float: left;
             background-color:red;
-            background-image: url(/../6-sign-up/6\ sign\ up/);
+            background-image: url("mcenter.png");
             color: white;
             position: absolute;
             top: 30px;
@@ -65,5 +66,19 @@ body {
                 right: 0;
                 font-size: 40px;
                 
+            }
+            .form-row > .text {
+                display: inline-block;
+                line-height: 20px;
+                font-size: 18px;
+                padding: 10px;
+            }
+            
+            .form-row > .link {
+                display: inline-block;
+                line-height: 20px;
+                font-size: 18px;
+                padding: 10px;
+
             }
             
