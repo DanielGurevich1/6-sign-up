@@ -41,3 +41,6 @@
     line-height: 20px;
     font-size: 18px;
 }
+.form-row:hover > .link {
+    color: red;
+}
