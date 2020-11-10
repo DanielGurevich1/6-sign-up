@@ -9,7 +9,7 @@ body {
         margin-top: 100px;
         margin-left: calc((100% - 800px) / 2);
         position: relative;
-        background-color: green;
+        background-color: blue;
     }
         .left-column {
             display: inline-block;
@@ -19,6 +19,7 @@ body {
             margin-top: 20px;        
             float: left;
             background-color:red;
+            background-image: url();
             color: white;
             position: absolute;
             top: 30px;
