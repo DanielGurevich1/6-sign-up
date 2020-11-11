@@ -17,6 +17,9 @@ body {
         margin-left: calc((100% - 800px) / 2);
         position: relative;
         /* background-color: blue; */
+        top: 50%;
+        Left: 50%;
+        transform: translate(-50%, -50%);
     }
         .left-column {
             display: inline-block;
