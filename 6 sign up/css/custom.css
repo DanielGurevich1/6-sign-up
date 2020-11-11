@@ -8,6 +8,7 @@ body {
         background-image: url("mblur.png");
         background-size: cover;
         background-position: center;
+        filter: blur(2px);
     }
     .container {
         display: inline-block;
